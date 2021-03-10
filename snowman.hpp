@@ -1,9 +1,14 @@
-int run(string str);
-string hat(char c);
-string nose(char c);
-string left_eye(char c);
-string right_eye(char c);
-string left_arm(char c);
-string right_arm(char c);
-string torso(char c);
-string base(char c);
+#include <string>
+using namespace std;
+namespace ariel
+{
+string snowman(int x);
+string hat(char num);
+string nose(char num);
+string left_eye(char num);
+string right_eye(char num);
+string left_arm(char num);
+string right_arm(char num);
+string torso(char num);
+string base(char num);
+}
